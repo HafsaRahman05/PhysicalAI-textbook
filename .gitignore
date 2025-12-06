@@ -1,0 +1,61 @@
+# -----------------------
+# Node.js / Frontend
+# -----------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+.DS_Store
+/dist
+/.cache
+/.docusaurus
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------------
+# Python / Backend
+# -----------------------
+# Backend Python virtual environment
+backend/venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+*.sqlite3
+
+# -----------------------
+# AI / Claude / Spec-Kit / MCP
+# -----------------------
+# Main AI Python venv
+AI/ai/
+# Claude + Spec-Kit
+AI/aibook/.claude/
+AI/aibook/.specify/
+# MCP / Context7 node_modules
+AI/aibook/mcp_context7/node_modules/
+# Optional AI book venv
+AI/book/
+AI/book/__pycache__/
+
+# -----------------------
+# IDE / Editor / OS files
+# -----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# -----------------------
+# Misc
+# -----------------------
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
